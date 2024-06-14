@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Demo</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/htmlDemo">HTML Demo</a></li>
+            <li><a href="#">Student Name: Hiruni Malsha</a></li>
+        </ul>
+    </nav>
+
+    <h1>HTML Demo</h1>
+
+    <h2>Tables</h2>
+    <table border="1">
+        <caption>Table 1: Example Data</caption>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Row 1, Cell 1 (rowspan=2)</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td colspan="2">Row 3, Cell 2 (colspan=2)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Footer 1</td>
+                <td>Footer 2</td>
+                <td>Footer 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table border="1">
+        <caption>Table 2: More Example Data</caption>
+        <thead>
+            <tr>
+                <th>Header A</th>
+                <th>Header B</th>
+                <th>Header C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Row A, Cell 1 (rowspan=2)</td>
+                <td>Row A, Cell 2</td>
+                <td>Row A, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row B, Cell 2</td>
+                <td>Row B, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row C, Cell 1</td>
+                <td colspan="2">Row C, Cell 2 (colspan=2)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Footer A</td>
+                <td>Footer B</td>
+                <td>Footer C</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>The tables above demonstrate the use of various HTML table elements including captions, headers, body, footer, and the use of rowspan and colspan properties.</p>
+
+    <h2>Lists</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Subitem 2.1</li>
+                <li>Subitem 2.2</li>
+                <li>Subitem 2.3</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <p>The list above demonstrates the use of nested lists with different types. The parent list is ordered, and it contains an unordered list as one of its items.</p>
+
+    <h2>Images</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg" alt="Snowboarder in halfpipe">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="PNG Transparency Demonstration">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Spiny_Lizard.jpg" alt="Blue Spiny Lizard">
+    <p>The images above showcase various types of content, including a snowboarder, a demonstration of PNG transparency, and a blue spiny lizard.</p>
+
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>The audio player above allows you to play sample audio files in different formats (MP3 and OGG).</p>
+
+    <h2>Video</h2>
+    <video controls width="600">
+        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.ogg" type="video/ogg">
+        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.webm" type="video/webm">
+        Your browser does not support the video element.
+    </video>
+    <p>The video player above allows you to play sample video files in different formats (MP4, OGG, and WEBM).</p>
+</body>
+</html>
